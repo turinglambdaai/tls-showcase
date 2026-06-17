@@ -1,5 +1,7 @@
 # TLS Showcase
 
+[![Language](https://img.shields.io/badge/language-Racket-red)]
+
 [English](README.md) | [中文](README.zh-CN.md)
 
 Code examples from *The Little Schemer* by Daniel P. Friedman and Matthias Felleisen, implemented in DrRacket (Racket).
