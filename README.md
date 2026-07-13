@@ -1,9 +1,10 @@
 # TLS Showcase
 
-[![Language](https://img.shields.io/badge/language-Racket-red)]  [![English](https://img.shields.io/badge/lang-English-blue)](README.md) [![中文](https://img.shields.io/badge/lang-中文-red)](README.zh-CN.md)
-
-
 Code examples from *The Little Schemer* by Daniel P. Friedman and Matthias Felleisen, implemented in DrRacket (Racket).
+
+![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white)
+
+**English** · [中文](README.zh-CN.md)
 
 *The Little Schemer* introduces recursive thinking through a series of Socratic dialogues. Each chapter builds on the previous one, guiding the reader from basic list operations to the Y combinator and a Scheme interpreter. This repository contains runnable Racket implementations of the key functions from each chapter.
 
@@ -48,3 +49,7 @@ Functions marked with `provide` are exported for use in later chapters.
 - Writing a Scheme interpreter in Scheme
 
 The book uses a subset of Scheme. This repository adapts the code to run in modern Racket with `#lang racket`.
+
+## License
+
+This project does not currently include a license file.

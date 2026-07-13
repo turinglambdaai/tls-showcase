@@ -1,8 +1,10 @@
 # TLS Showcase
 
-[English](README.md) | [中文](README.zh-CN.md)
-
 *The Little Schemer*（Daniel P. Friedman 与 Matthias Felleisen 合著）一书代码示例的 DrRacket（Racket）实现。
+
+![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white)
+
+[English](README.md) · **中文**
 
 *The Little Schemer* 通过苏格拉底式对话引导读者掌握递归思维。每一章在前一章的基础上递进，从基本的列表操作讲到 Y 组合子和 Scheme 解释器。本仓库包含各章关键函数的可运行 Racket 实现。
 
@@ -47,3 +49,7 @@
 - 用 Scheme 编写 Scheme 解释器
 
 本书使用 Scheme 的一个子集。本仓库将代码适配为在现代 Racket 中以 `#lang racket` 运行。
+
+## 许可证
+
+本项目暂未包含许可证文件。
