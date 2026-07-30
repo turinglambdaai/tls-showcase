@@ -2,13 +2,13 @@
 
 Code examples from *The Little Schemer* by Daniel P. Friedman and Matthias Felleisen, implemented in DrRacket (Racket).
 
-![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white)
+![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **English** · [中文](README.zh-CN.md)
 
 *The Little Schemer* introduces recursive thinking through a series of Socratic dialogues. Each chapter builds on the previous one, guiding the reader from basic list operations to the Y combinator and a Scheme interpreter. This repository contains runnable Racket implementations of the key functions from each chapter.
 
-## Chapters
+## Categories
 
 | File | Chapter | Topic |
 |------|---------|-------|
@@ -27,9 +27,20 @@ Code examples from *The Little Schemer* by Daniel P. Friedman and Matthias Felle
 
 ## Requirements
 
-- [Racket](https://racket-lang.org/) 7.0 or later
+| Dependency | Purpose / Version |
+|------------|-------------------|
+| [Racket](https://racket-lang.org/) | 7.0 or later |
 
 ## Usage
+
+### 1. Clone
+
+```bash
+git clone https://github.com/turinglambdaai/tls-showcase.git
+cd tls-showcase
+```
+
+### 2. Run a chapter
 
 Open any `.rkt` file in DrRacket and click **Run** (or press F5). Some files depend on earlier chapters:
 
@@ -52,4 +63,4 @@ The book uses a subset of Scheme. This repository adapts the code to run in mode
 
 ## License
 
-This project does not currently include a license file.
+Licensed under the [MIT License](LICENSE).

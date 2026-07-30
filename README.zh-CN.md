@@ -2,13 +2,13 @@
 
 *The Little Schemer*（Daniel P. Friedman 与 Matthias Felleisen 合著）一书代码示例的 DrRacket（Racket）实现。
 
-![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white)
+![Racket](https://img.shields.io/badge/Racket-9F1D20?logo=racket&logoColor=white) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 [English](README.md) · **中文**
 
 *The Little Schemer* 通过苏格拉底式对话引导读者掌握递归思维。每一章在前一章的基础上递进，从基本的列表操作讲到 Y 组合子和 Scheme 解释器。本仓库包含各章关键函数的可运行 Racket 实现。
 
-## 章节
+## 分类
 
 | 文件 | 章节 | 主题 |
 |------|------|------|
@@ -27,9 +27,20 @@
 
 ## 环境要求
 
-- [Racket](https://racket-lang.org/) 7.0 或更高版本
+| 依赖 | 用途 / 版本 |
+|------|-------------|
+| [Racket](https://racket-lang.org/) | 7.0 或更高版本 |
 
 ## 使用方法
+
+### 1. 克隆
+
+```bash
+git clone https://github.com/turinglambdaai/tls-showcase.git
+cd tls-showcase
+```
+
+### 2. 运行某一章节
 
 在 DrRacket 中打开任意 `.rkt` 文件，点击 **Run**（或按 F5）即可运行。部分文件依赖于前面的章节：
 
@@ -52,4 +63,4 @@
 
 ## 许可证
 
-本项目暂未包含许可证文件。
+基于 [MIT 许可证](LICENSE) 授权。
